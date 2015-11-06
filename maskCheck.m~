@@ -1,0 +1,95 @@
+%%%Created by Oliver Vikbladh. Modified by Julian. 
+
+clear all
+tic;
+% %defining matrices
+cort=[]; %cortical structures from HO atlas
+sub=[]; %subcortical structures from HO atlas
+patientss=[]; %patients
+
+% %set working directory
+%cd '/Users/vanbaveladmin/GDrive/LesionProject/Masks/Collected' %Lab
+cd '/Users/Julian/GDrive/LesionProject/Masks/Collected' %Laptop
+%cd '/CBI/Users/julian/Documents/LesionWorkshop/FrontalMasks' %Room 204
+
+subs= [1 3:4 6:8 12:26 28:35 37:39 41 43:47];
+
+% %reading in patients
+pAll = dir('*.nii');
+pN = size(pAll,1);
+
+
+
+subs= [1 3:4 6:8 12:26 28:35 37:39 41 43:47];
+
+b=0
+for s=1:length(subs)
+    f=[];
+    a=[];
+%     b=0;
+    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/05mask'];
+    a=dir(d{s});
+    for i=1:length(a)
+        if strfind(a(i).name,'mask')==1
+            b=b+1;
+%             f{b}=a(i).name;
+            c{b}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/05mask/',a(i).name];
+        end
+    end
+%     c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/05mask/',f{b},',1'];
+%     strfind(a(:).name,'spm')
+end
+
+% c=c';
+for s=1:length(subs);
+    p2=load_nii(c{s});
+    masks(:,:,:,s)=p2.img; %Windows friendly
+%     masks(:,:,:,s)=niftiread(c{s}); %CBI Nifti tools
+end
+
+%patientss(:,:,:,1)=niftiread('P41_MNI-mask.nii');
+%patientss(:,:,:,2)=niftiread('P046_MNI-mask.nii');
+%patientss(:,:,:,3)=niftiread('P178_MNI.nii');
+
+%patientss=zeros(X,Y,Z,nP);
+
+cd '/Users/Julian/GDrive/LesionProject/LSM' %Laptop
+%cd '/CBI/Users/julian/Documents/LesionWorkshop/LSMscripts'
+
+% %dimensions
+X=size(patientss,1);
+Y=size(patientss,2);
+Z=size(patientss,3);
+
+% %number of patients
+n_pat=size(patientss,4);
+
+%new mask matrix with ones and zeros (in case there are other values)
+patients=zeros(X,Y,Z,n_pat);
+
+for p=1:n_pat;
+    patients(:,:,:,p)=arrayfun(@nnz,patientss(:,:,:,p));
+end
+
+%collapse patient dimension to create overlay
+patients_overlap = zeros(X,Y,Z);
+for p=1:n_pat;
+    patients_overlap = patients_overlap + patients(:,:,:,p);
+end
+
+
+
+
+o = make_nii(patients_overlap, [], [90 126 72]); %origin
+save_nii(o,'overlayFrontal.nii');
+
+%sum(sum(sum(patients_overlap))) 
+%max(max(max(patients_overlap)))
+
+%a = patientss(:,:,:,1) - patients(:,:,:,1)
+%sum(sum(sum(a)))
+%sum(sum(sum(patientss(:,:,:,1))))
+%max(max(max(patientss(:,:,:,1)))
+
+%x [-91,90] y [91,-126] z [-72,109]
+toc

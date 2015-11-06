@@ -1,0 +1,1186 @@
+%-----------------------------------------------------------------------
+% Job saved on 03-Nov-2015 00:02:52 by cfg_util (rev $Rev: 6460 $)
+% spm SPM - SPM12 (6470)
+% cfg_basicio BasicIO - Unknown
+%-----------------------------------------------------------------------
+matlabbatch{1}.spm.stats.fmri_spec.dir = {'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\results'};
+matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
+matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 2;
+matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 16;
+matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t0 = 8;
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).scans = {
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,1'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,2'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,3'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,4'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,5'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,6'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,7'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,8'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,9'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,10'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,11'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,12'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,13'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,14'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,15'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,16'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,17'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,18'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,19'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,20'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,21'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,22'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,23'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,24'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,25'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,26'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,27'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,28'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,29'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,30'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,31'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,32'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,33'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,34'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,35'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,36'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,37'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,38'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,39'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,40'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,41'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,42'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,43'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,44'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,45'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,46'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,47'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,48'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,49'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,50'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,51'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,52'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,53'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,54'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,55'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,56'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,57'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,58'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,59'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,60'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,61'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,62'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,63'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,64'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,65'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,66'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,67'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,68'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,69'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,70'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,71'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,72'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,73'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,74'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,75'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,76'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,77'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,78'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,79'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,80'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,81'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,82'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,83'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,84'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,85'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,86'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,87'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,88'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,89'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,90'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,91'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,92'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,93'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,94'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,95'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,96'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,97'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,98'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,99'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,100'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,101'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,102'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,103'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,104'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,105'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,106'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,107'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,108'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,109'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,110'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,111'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,112'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,113'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,114'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,115'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,116'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,117'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,118'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,119'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,120'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,121'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,122'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,123'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,124'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,125'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,126'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,127'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,128'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,129'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,130'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,131'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,132'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,133'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,134'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,135'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,136'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,137'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,138'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,139'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,140'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,141'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,142'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,143'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,144'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,145'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,146'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,147'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,148'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,149'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,150'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,151'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,152'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,153'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,154'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,155'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,156'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,157'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,158'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,159'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,160'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,161'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,162'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,163'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,164'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,165'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,166'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,167'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,168'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,169'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,170'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,171'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,172'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,173'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,174'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,175'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,176'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,177'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,178'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,179'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,180'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,181'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,182'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,183'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,184'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,185'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,186'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,187'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,188'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,189'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,190'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,191'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,192'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,193'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,194'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,195'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,196'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,197'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,198'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,199'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,200'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,201'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,202'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,203'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,204'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,205'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,206'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,207'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,208'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,209'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,210'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,211'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,212'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,213'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,214'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,215'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,216'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,217'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,218'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run1\unwarped\dvswra150616153047.nii,219'
+                                                    };
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).name = 'Give';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).onset = [6006
+                                                            28209
+                                                            58620
+                                                            73829
+                                                            90131
+                                                            103375
+                                                            134787
+                                                            165242
+                                                            184446
+                                                            200651
+                                                            218857
+                                                            236063
+                                                            250269
+                                                            284681
+                                                            306890
+                                                            320092
+                                                            351501
+                                                            393910
+                                                            418114];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).name = 'Keep';
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).onset = [45413
+                                                            120581
+                                                            150991
+                                                            265475
+                                                            335296
+                                                            368703];
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).multi = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).regress = struct('name', {}, 'val', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).multi_reg = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).hpf = 128;
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).scans = {
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,1'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,2'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,3'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,4'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,5'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,6'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,7'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,8'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,9'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,10'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,11'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,12'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,13'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,14'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,15'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,16'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,17'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,18'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,19'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,20'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,21'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,22'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,23'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,24'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,25'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,26'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,27'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,28'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,29'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,30'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,31'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,32'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,33'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,34'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,35'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,36'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,37'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,38'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,39'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,40'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,41'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,42'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,43'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,44'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,45'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,46'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,47'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,48'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,49'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,50'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,51'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,52'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,53'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,54'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,55'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,56'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,57'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,58'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,59'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,60'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,61'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,62'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,63'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,64'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,65'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,66'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,67'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,68'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,69'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,70'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,71'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,72'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,73'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,74'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,75'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,76'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,77'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,78'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,79'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,80'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,81'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,82'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,83'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,84'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,85'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,86'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,87'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,88'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,89'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,90'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,91'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,92'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,93'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,94'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,95'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,96'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,97'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,98'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,99'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,100'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,101'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,102'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,103'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,104'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,105'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,106'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,107'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,108'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,109'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,110'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,111'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,112'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,113'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,114'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,115'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,116'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,117'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,118'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,119'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,120'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,121'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,122'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,123'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,124'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,125'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,126'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,127'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,128'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,129'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,130'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,131'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,132'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,133'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,134'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,135'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,136'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,137'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,138'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,139'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,140'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,141'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,142'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,143'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,144'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,145'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,146'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,147'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,148'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,149'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,150'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,151'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,152'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,153'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,154'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,155'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,156'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,157'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,158'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,159'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,160'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,161'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,162'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,163'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,164'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,165'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,166'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,167'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,168'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,169'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,170'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,171'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,172'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,173'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,174'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,175'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,176'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,177'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,178'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,179'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,180'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,181'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,182'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,183'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,184'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,185'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,186'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,187'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,188'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,189'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,190'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,191'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,192'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,193'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,194'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,195'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,196'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,197'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,198'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,199'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,200'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,201'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,202'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,203'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,204'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,205'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,206'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,207'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,208'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,209'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,210'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,211'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,212'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,213'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,214'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,215'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,216'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,217'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,218'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run2\unwarped\dvswra150616154449.nii,219'
+                                                    };
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).name = 'Give';
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).onset = [4006
+                                                            86028
+                                                            124439
+                                                            192321
+                                                            241936
+                                                            257143
+                                                            381645
+                                                            420054];
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(1).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).name = 'Keep';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).onset = [21212
+                                                            37421
+                                                            51622
+                                                            72824
+                                                            106232
+                                                            144642
+                                                            160907
+                                                            177113
+                                                            222733
+                                                            273350
+                                                            291555
+                                                            309759
+                                                            327964
+                                                            346231
+                                                            360440
+                                                            401849];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).cond(2).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).multi = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).regress = struct('name', {}, 'val', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).multi_reg = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(2).hpf = 128;
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).scans = {
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,1'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,2'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,3'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,4'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,5'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,6'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,7'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,8'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,9'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,10'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,11'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,12'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,13'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,14'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,15'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,16'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,17'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,18'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,19'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,20'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,21'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,22'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,23'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,24'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,25'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,26'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,27'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,28'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,29'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,30'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,31'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,32'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,33'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,34'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,35'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,36'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,37'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,38'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,39'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,40'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,41'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,42'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,43'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,44'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,45'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,46'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,47'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,48'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,49'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,50'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,51'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,52'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,53'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,54'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,55'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,56'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,57'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,58'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,59'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,60'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,61'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,62'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,63'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,64'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,65'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,66'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,67'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,68'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,69'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,70'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,71'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,72'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,73'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,74'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,75'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,76'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,77'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,78'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,79'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,80'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,81'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,82'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,83'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,84'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,85'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,86'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,87'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,88'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,89'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,90'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,91'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,92'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,93'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,94'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,95'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,96'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,97'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,98'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,99'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,100'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,101'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,102'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,103'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,104'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,105'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,106'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,107'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,108'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,109'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,110'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,111'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,112'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,113'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,114'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,115'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,116'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,117'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,118'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,119'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,120'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,121'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,122'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,123'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,124'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,125'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,126'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,127'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,128'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,129'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,130'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,131'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,132'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,133'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,134'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,135'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,136'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,137'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,138'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,139'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,140'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,141'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,142'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,143'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,144'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,145'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,146'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,147'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,148'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,149'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,150'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,151'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,152'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,153'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,154'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,155'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,156'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,157'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,158'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,159'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,160'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,161'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,162'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,163'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,164'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,165'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,166'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,167'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,168'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,169'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,170'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,171'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,172'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,173'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,174'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,175'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,176'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,177'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,178'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,179'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,180'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,181'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,182'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,183'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,184'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,185'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,186'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,187'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,188'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,189'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,190'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,191'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,192'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,193'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,194'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,195'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,196'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,197'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,198'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,199'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,200'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,201'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,202'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,203'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,204'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,205'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,206'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,207'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,208'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,209'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,210'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,211'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,212'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,213'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,214'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,215'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,216'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,217'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,218'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run3\unwarped\dvswra150616155324.nii,219'
+                                                    };
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(1).name = 'Give';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(1).onset = [5006
+                                                            20273
+                                                            37480
+                                                            53683
+                                                            88098
+                                                            106303
+                                                            120511
+                                                            179131
+                                                            199333
+                                                            229784
+                                                            245991
+                                                            264198
+                                                            279401
+                                                            295608
+                                                            336020
+                                                            367429
+                                                            381634
+                                                            419139];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(1).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(1).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(1).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(1).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(2).name = 'Keep';
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(2).onset = [73891
+                                                            138715
+                                                            161923
+                                                            213581
+                                                            309812
+                                                            354224
+                                                            395935];
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(2).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(2).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(2).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).cond(2).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).multi = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).regress = struct('name', {}, 'val', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).multi_reg = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(3).hpf = 128;
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).scans = {
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,1'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,2'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,3'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,4'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,5'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,6'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,7'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,8'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,9'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,10'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,11'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,12'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,13'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,14'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,15'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,16'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,17'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,18'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,19'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,20'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,21'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,22'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,23'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,24'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,25'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,26'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,27'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,28'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,29'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,30'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,31'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,32'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,33'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,34'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,35'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,36'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,37'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,38'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,39'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,40'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,41'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,42'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,43'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,44'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,45'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,46'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,47'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,48'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,49'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,50'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,51'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,52'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,53'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,54'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,55'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,56'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,57'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,58'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,59'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,60'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,61'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,62'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,63'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,64'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,65'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,66'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,67'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,68'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,69'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,70'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,71'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,72'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,73'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,74'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,75'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,76'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,77'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,78'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,79'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,80'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,81'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,82'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,83'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,84'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,85'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,86'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,87'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,88'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,89'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,90'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,91'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,92'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,93'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,94'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,95'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,96'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,97'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,98'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,99'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,100'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,101'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,102'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,103'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,104'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,105'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,106'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,107'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,108'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,109'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,110'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,111'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,112'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,113'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,114'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,115'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,116'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,117'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,118'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,119'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,120'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,121'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,122'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,123'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,124'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,125'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,126'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,127'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,128'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,129'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,130'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,131'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,132'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,133'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,134'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,135'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,136'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,137'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,138'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,139'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,140'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,141'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,142'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,143'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,144'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,145'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,146'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,147'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,148'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,149'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,150'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,151'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,152'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,153'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,154'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,155'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,156'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,157'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,158'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,159'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,160'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,161'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,162'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,163'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,164'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,165'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,166'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,167'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,168'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,169'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,170'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,171'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,172'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,173'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,174'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,175'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,176'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,177'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,178'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,179'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,180'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,181'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,182'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,183'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,184'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,185'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,186'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,187'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,188'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,189'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,190'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,191'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,192'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,193'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,194'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,195'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,196'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,197'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,198'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,199'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,200'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,201'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,202'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,203'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,204'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,205'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,206'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,207'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,208'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,209'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,210'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,211'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,212'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,213'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,214'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,215'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,216'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,217'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,218'
+                                                    'C:\Users\Julian\GDrive\PGGfMRI\Neuro\Data\s1\func\run4\unwarped\dvswra150616160131.nii,219'
+                                                    };
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(1).name = 'Give';
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(1).onset = [67857
+                                                            84099
+                                                            103309
+                                                            194359
+                                                            284532
+                                                            384798
+                                                            415216];
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(1).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(1).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(1).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(1).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(2).name = 'Keep';
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(2).onset = [5006
+                                                            20273
+                                                            37480
+                                                            53683
+                                                            88098
+                                                            106303
+                                                            120511
+                                                            179131
+                                                            199333
+                                                            229784
+                                                            245991
+                                                            264198
+                                                            279401
+                                                            295608
+                                                            336020
+                                                            367429
+                                                            381634
+                                                            419139];
+%%
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(2).duration = [4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4
+                                                               4];
+                                                           
+for i = 1:4 
+    for j = 1:2
+        matlabbatch{1}.spm.stats.fmri_spec.sess(i).cond(j).onset  = matlabbatch{1}.spm.stats.fmri_spec.sess(i).cond(j).onset / 1000;
+    end
+end
+
+%%
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(2).tmod = 0;
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(2).pmod = struct('name', {}, 'param', {}, 'poly', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).cond(2).orth = 1;
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).multi = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).regress = struct('name', {}, 'val', {});
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).multi_reg = {''};
+matlabbatch{1}.spm.stats.fmri_spec.sess(4).hpf = 128;
+matlabbatch{1}.spm.stats.fmri_spec.fact = struct('name', {}, 'levels', {});
+matlabbatch{1}.spm.stats.fmri_spec.bases.hrf.derivs = [0 0];
+matlabbatch{1}.spm.stats.fmri_spec.volt = 1;
+matlabbatch{1}.spm.stats.fmri_spec.global = 'None';
+matlabbatch{1}.spm.stats.fmri_spec.mthresh = 0.8;
+matlabbatch{1}.spm.stats.fmri_spec.mask = {''};
+matlabbatch{1}.spm.stats.fmri_spec.cvi = 'AR(1)';
+matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{2}.spm.stats.fmri_est.write_residuals = 0;
+matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
+matlabbatch{3}.spm.stats.con.spmmat(1) = cfg_dep('Model estimation: SPM.mat File', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Give > Keep';
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.weights = [1 -1];
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.sessrep = 'bothsc';
+matlabbatch{3}.spm.stats.con.delete = 0;
