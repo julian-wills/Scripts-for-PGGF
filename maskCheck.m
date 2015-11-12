@@ -95,6 +95,12 @@ end
 i = make_nii(masks_union, [], [26 32 22.5]); %origin
 save_nii(i,'union_38subs_pggf.nii');
 
+% create mask where each value reflects a subject
+sMap = make_nii(masks_union, [], [26 32 22.5]); %origin
+save_nii(i,'union_38subs_pggf.nii');
+
+
+
 %sum(sum(sum(patients_overlap))) 
 %max(max(max(patients_overlap)))
 

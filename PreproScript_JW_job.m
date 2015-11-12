@@ -3,6 +3,8 @@
 % Original script by Leor, modified by Sharareh on Nov 11, 2014
 % Modified by Julian on Oct 29, 2015
 %-----------------------------------------------------------------------
+
+% JAW: coregisters functional to T1 space (T1 doesn't move). 
 %% 
 global subj
 global deleteLast

@@ -17,7 +17,9 @@ global deleteLast
 % Subject 2 missing run 3 
 % subs= [1 3:47]; %31:40
 % subs=[1 3:47];
-subs=[25:47]
+subs=[25:47];
+
+subs=2
 deleteLast = 1;
 
 % if strncmpi(matlabroot, 'C:\', 3)==1 %if on windows, change file path

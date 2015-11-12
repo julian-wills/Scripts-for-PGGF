@@ -8,6 +8,8 @@ global subj
 dataDir = '/Users/Julian/GDrive/PGGfMRI_preproc/'; %iMac
 % dataDir = 'C:/Users/Julian/GDrive/PGGfMRI/Neuro/Data/'; %PC
 
+
+
 designR1Filename = [dataDir 's' num2str(subj) '/behav/choice_prevFeedback/s' num2str(subj) '_r1.csv'];
 designR2Filename = [dataDir 's' num2str(subj) '/behav/choice_prevFeedback/s' num2str(subj) '_r2.csv'];
 designR3Filename = [dataDir 's' num2str(subj) '/behav/choice_prevFeedback/s' num2str(subj) '_r3.csv'];

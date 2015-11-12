@@ -79,9 +79,7 @@ for s=1:length(subs)
             antiCon{1}=[d{s},'/',f{find(conCode==antiCodes(1))}];
             
             % average two Anti runs, then subtract from Pro (i1+i2)/2)-i3 i1-((i2+i3)/2
-            spm_imcalc([proCon{1};proCon{2};antiCon{1}],[d{s},'/con_PROvANTI.nii'],'((i1+i2)/2)-i3',{0,0,0,16});  
-            spm_imcalc([proCon{1};proCon{2};antiCon{1}],[d{s},'/con_ANTIvPRO.nii'],'i3-((i1+i2)/2)',{0,0,0,16});  
-       
+            spm_imcalc([proCon{1};proCon{2};antiCon{1}],[d{s},'/con_PROvANTI.nii'],'(i1+i2)/2)-i3',{0,0,0,16});  
         elseif sum(conCode<0) % two Anti, one Pro
             proCon{1}=[d{s},'/',f{find(conCode==proCodes(1))}]; %file index that matches first prosocial 
             antiCon{1}=[d{s},'/',f{find(conCode==antiCodes(1))}];
@@ -89,7 +87,6 @@ for s=1:length(subs)
             
             % average two Pro runs, then subtract Anti run
             spm_imcalc([proCon{1};antiCon{1};antiCon{2}],[d{s},'/con_PROvANTI.nii'],'i1-((i2+i3)/2)',{0,0,0,16});             
-            spm_imcalc([proCon{1};antiCon{1};antiCon{2}],[d{s},'/con_ANTIvPRO.nii'],'((i2+i3)/2)-i1',{0,0,0,16});                     
         end
     end
 end
@@ -98,7 +95,7 @@ end
 % pinfo is much smaller
     c{s}=['/Users/Julian/GDrive/PGGfMRI/Neuro/Data/s',num2str(subs(s)),'/results/wholeMask/',f{b}];
 %     strfind(a(:).name,'spm')
-% end
+end
 
 
 

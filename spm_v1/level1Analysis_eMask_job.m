@@ -2,7 +2,9 @@
 % Job configuration created by cfg_util (rev $Rev: 4252 $)
 %-----------------------------------------------------------------------
 %  JAW: this script only includes analyzable sessions (i.e. runs where subject's
-%  choices are not constant Keep/Give) 
+%  choices are not constant Keep/Give). In addition, explicit/whole-brain
+%  masks are used for each subject in order to include OFC for level 2
+%  analyses. 
 
 global subj
 dataDir = '/Users/Julian/GDrive/PGGfMRI_preproc/'; %iMac
@@ -84,7 +86,7 @@ keep{4}=keepOnsetsR4;
 % j=1;
 % j=int16.empty(4,0)
 
-matlabbatch{1}.spm.stats.fmri_spec.dir = {[dataDir 's' num2str(subj) '/results/05mask/']};
+matlabbatch{1}.spm.stats.fmri_spec.dir = {[dataDir 's' num2str(subj) '/results/wholeMask/']};
 matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
 matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 2;
 matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 32;
@@ -126,8 +128,8 @@ if sum(r)<4
     matlabbatch{1}.spm.stats.fmri_spec.bases.hrf.derivs = [0 0];
     matlabbatch{1}.spm.stats.fmri_spec.volt = 1;
     matlabbatch{1}.spm.stats.fmri_spec.global = 'None';
-    matlabbatch{1}.spm.stats.fmri_spec.mthresh = 0.5; %change from 0,8 so OFC/amygdala comes through
-    matlabbatch{1}.spm.stats.fmri_spec.mask = {''};
+    matlabbatch{1}.spm.stats.fmri_spec.mthresh = 0; %changed from 0.8 so OFC/amygdala comes through
+    matlabbatch{1}.spm.stats.fmri_spec.mask = {'/Users/julian/Downloads/mask20_no_eyeballs_roi/mask20_no_eyeballs.nii,1'};
     matlabbatch{1}.spm.stats.fmri_spec.cvi = 'FAST';
     matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('fMRI model specification: SPM.mat File', substruct('.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
     matlabbatch{2}.spm.stats.fmri_est.write_residuals = 0;
