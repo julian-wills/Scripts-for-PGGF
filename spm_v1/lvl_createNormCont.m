@@ -15,6 +15,8 @@ rRunData = csvread('/Users/Julian/GDrive/PGGfMRI/behav/PGG_F_normContrast.csv',1
 
 % 0 = skip; pos = Pro; neg = Anti; 
 
+
+
 subs = [1:47]; %4
 clear d
 for s=1:length(subs)
