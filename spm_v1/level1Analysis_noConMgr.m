@@ -22,7 +22,7 @@ for i=1:length(subs)
     disp('------------------------------------------');
     disp(['Started level 1 analysis of Subject ' num2str(subj)]);
     nrun = 1; % enter the number of runs here
-    jobfile = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Scripts/spm_v1/level1Analysis_eMask_job.m'};
+    jobfile = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Scripts/spm_v1/lvl1_eMask_choiceDur_job.m'};
     jobs = repmat(jobfile, 1, nrun);
     inputs = cell(0, nrun);
     spm('defaults', 'FMRI');

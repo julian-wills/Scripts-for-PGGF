@@ -32,7 +32,9 @@ for s=1:length(subs)
     
 %     d{s}=['/Users/Julian/GDrive/PGGfMRI/Neuro/Data/s',num2str(subs(s)),'/results']; %testing
 %     d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/05mask'];
-    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask'];
+%     d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask'];
+    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur'];
+
     a=dir(d{s});
     
     for i=1:length(a)

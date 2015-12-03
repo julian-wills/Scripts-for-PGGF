@@ -19,7 +19,9 @@ global deleteLast
 % subs=[1 3:47];
 subs=[25:47];
 
-subs=[2 3 19] %reconstructed and missing from earlier
+% subs=[2 3 19] %reconstructed and missing from earlier (11/11)
+subs=[19 6 12 28 2] %reconstructed and missing from earlier (11/30)
+
 deleteLast = 1;
 
 % if strncmpi(matlabroot, 'C:\', 3)==1 %if on windows, change file path

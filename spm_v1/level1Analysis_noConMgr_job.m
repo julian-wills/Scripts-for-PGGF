@@ -53,13 +53,13 @@ r4Scans=[repmat([dataDir 's' num2str(subj) '/func/run4/unwarped/' r4scanfile(1).
 r4Scans=cellstr(r4Scans);
 
 giveOnsetsR1=dsgnR1((dsgnR1(:,1)~=-99),1);
-keepOnsetsR1=dsgnR1((dsgnR1(:,3)~=-99),3);
+keepOnsetsR1=dsgnR1((dsgnR1(:,4)~=-99),4);
 giveOnsetsR2=dsgnR2((dsgnR2(:,1)~=-99),1);
-keepOnsetsR2=dsgnR2((dsgnR2(:,3)~=-99),3);
+keepOnsetsR2=dsgnR2((dsgnR2(:,4)~=-99),4);
 giveOnsetsR3=dsgnR3((dsgnR3(:,1)~=-99),1);
-keepOnsetsR3=dsgnR3((dsgnR3(:,3)~=-99),3);
+keepOnsetsR3=dsgnR3((dsgnR3(:,4)~=-99),4);
 giveOnsetsR4=dsgnR4((dsgnR4(:,1)~=-99),1);
-keepOnsetsR4=dsgnR4((dsgnR4(:,3)~=-99),3);
+keepOnsetsR4=dsgnR4((dsgnR4(:,4)~=-99),4);
 
 % Trying to deal w/ problem subjects..
 r(1) = isempty(giveOnsetsR1) | isempty(keepOnsetsR1); %returns 1 if at least 1 invariant run

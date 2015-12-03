@@ -4,15 +4,18 @@
 % cfg_basicio BasicIO - Unknown
 % Purpose: Simple contrast between Give and Keep. Takes average across runs
 %-----------------------------------------------------------------------
-matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/G_vs_K'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/choiceDur_norm'};
 
-subs= [1 3:4 6:8 12:26 28:35 37:39 41 43:47];
+
+subs = [1 4 6:8 11:18 20:26 28:35 37:39 41 43:47]; %full model subs
+
+subs= [1 3:4 6:8 11:26 28:35 37:39 41 43:47];
 
 for s=1:length(subs)
     f=[];
     a=[];
     b=0;
-    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask'];
+    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur'];
     a=dir(d{s});
     for i=1:length(a)
         if strfind(a(i).name,'con')==1
@@ -20,7 +23,7 @@ for s=1:length(subs)
             f{b}=a(i).name;
         end
     end
-    c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/',f{b},',1'];
+    c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur/',f{b},',1'];
 %     strfind(a(:).name,'spm')
 end
 
