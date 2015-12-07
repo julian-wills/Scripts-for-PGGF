@@ -3,56 +3,53 @@
 %-----------------------------------------------------------------------
 %%
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/IncG_G/PrefIncG_G'};
-% matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/FBevent/IncG_G/PrefIncG_G'};
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/4sFB/IncG_K/PrefIncG_K'};
-% matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/FBevent/IncG_K/PrefIncG_K'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/FBevent/IncG_K/PrefIncG_K'};
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/G_v_K_fix/Cooperation'};
-% matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/FBevent/G_v_K/Cooperation'};
-matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/FBevent/K_v_G/Cooperation'};
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/choiceDur/Pro_v_Anti/NormSens'};
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/choiceDur/Pro_v_Anti/NormSens_sans31'};
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/choiceDur/Anti_v_Pro/NormSens'};
 
 subs = [1 3:4 6:8 11:26 28:35 37:39 41 43:47]; %full model subs (+2 more; N=39)
 
-for s=1:length(subs)
-    f=[];
-    a=[];
-    b=0;
-    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/FBevent/feedbackPM_choiceDuration'];
-    a=dir(d{s});
-    for i=1:length(a)
-        if strfind(a(i).name,'con_0009')==1 % 1= G>K;    7=IncG after G;    8=IncG after K      9=K>G
-            b=b+1;
-            f{b}=a(i).name;
-        end
-    end
-    c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/FBevent/feedbackPM_choiceDuration/',f{b},',1'];
-end
-
-%%
-% b=0;
-% clear c
-% 
-% subs = [1:47]; %full model subs (+2 more; N=39)
-% % subs = [1:30 32:47]; %remove subj 31 (most norm sensitive) to examine influence
-% subs2=[];
 % for s=1:length(subs)
 %     f=[];
 %     a=[];
-%     d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur'];
+%     b=0;
+%     d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/4sFB/feedbackPM_choiceDuration'];
 %     a=dir(d{s});
 %     for i=1:length(a)
-%         if strfind(a(i).name,'con_PROvANTI')==1
-% %         if strfind(a(i).name,'con_ANTIvPRO')==1    
+%         if strfind(a(i).name,'con_0008')==1 % 1= G>K;    7=IncG after G;    8=IncG after K 
 %             b=b+1;
-%             c{b}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur/',a(i).name];
-%             subs2(b)=s;
+%             f{b}=a(i).name;
 %         end
 %     end
+%     c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/4sFB/feedbackPM_choiceDuration/',f{b},',1'];
 % end
-% % subs = [1:47]; %full model subs (+2 more; N=39)
-% subs2(subs2==31) = []; c{25}=[];  c=c(~cellfun('isempty',c));
+
+%%
+b=0;
+clear c
+
+subs = [1:47]; %full model subs (+2 more; N=39)
+% subs = [1:30 32:47]; %remove subj 31 (most norm sensitive) to examine influence
+subs2=[];
+for s=1:length(subs)
+    f=[];
+    a=[];
+    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur'];
+    a=dir(d{s});
+    for i=1:length(a)
+        if strfind(a(i).name,'con_PROvANTI')==1
+%         if strfind(a(i).name,'con_ANTIvPRO')==1    
+            b=b+1;
+            c{b}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/wholeMask/choiceDur/',a(i).name];
+            subs2(b)=s;
+        end
+    end
+end
+% subs = [1:47]; %full model subs (+2 more; N=39)
+subs2(subs2==31) = []; c{25}=[];  c=c(~cellfun('isempty',c));
 
 %
 dataDir = '/Users/Julian/GDrive/PGGfMRI'; %iMac
@@ -61,8 +58,8 @@ dataDir = '/Users/Julian/GDrive/PGGfMRI'; %iMac
 covarFile = [dataDir '/Behav/PGGF_lvl2Covars.csv']; 
 covars= csvread(covarFile,1,1);
 
-rows_to_keep = any(ismember(covars(:,1),subs), 2);
-% rows_to_keep = any(ismember(covars(:,1),subs2), 2); %Norm constrasts
+% rows_to_keep = any(ismember(covars(:,1),subs), 2);
+rows_to_keep = any(ismember(covars(:,1),subs2), 2); %Norm constrasts
 rows_to_remove = 1-rows_to_keep;
 covars(find(rows_to_remove),:) = [];
 
@@ -71,13 +68,13 @@ covars(find(rows_to_remove),:) = [];
 matlabbatch{1}.spm.stats.factorial_design.des.mreg.scans = c';
 % matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.c = covars(:,7); %IncG G More Pos
 % matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.c = covars(:,9); %IncG K More Pos
-matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.c = covars(:,8); %Cooperation
-% matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.c = covars(:,2); %Norm Sens
+% matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.c = covars(:,8); %Cooperation
+matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.c = covars(:,2); %Norm Sens
 
 % matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.cname = 'Preference for Inc G when G';
 % matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.cname = 'Preference for Inc G when K';
-matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.cname = 'Cooperation';
-% matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.cname = 'Norm Sensitivity';
+% matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.cname = 'Cooperation';
+matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.cname = 'Norm Sensitivity';
 
 matlabbatch{1}.spm.stats.factorial_design.des.mreg.mcov.iCC = 1;
 matlabbatch{1}.spm.stats.factorial_design.des.mreg.incint = 1;
@@ -94,21 +91,17 @@ matlabbatch{2}.spm.stats.fmri_est.spmmat(1) = cfg_dep('Factorial design specific
 matlabbatch{2}.spm.stats.fmri_est.write_residuals = 0;
 matlabbatch{2}.spm.stats.fmri_est.method.Classical = 1;
 matlabbatch{3}.spm.stats.con.spmmat(1) = cfg_dep('Model estimation: SPM.mat File', substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}), substruct('.','spmmat'));
-% matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Give Inc G x Preference for Inc G when G';
+matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Give Inc G x Preference for Inc G when G';
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Keep Inc G x Preference for Inc K when K';
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'G>K x Cooperative';
-matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'K>G x Cooperative';
-
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Norm Consistent Choice x Norm Sensitivity';
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Norm Inconsistent Choice x Norm Sensitivity';
 
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.weights = [0 1];
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.sessrep = 'repl';
-% matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Give Inc G x Preference for Inc K when G';
+matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Give Inc G x Preference for Inc K when G';
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Keep Inc G x Preference for Inc G when K';
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'G>K x Selfish';
-matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'K>G x Selfish';
-
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Norm Consistent Choice x Norm Insensitivity';
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Norm Inconsistent Choice x Norm Insensitivity';
 

@@ -51,7 +51,7 @@ dsgnFile = csvread(designR1Filename,1,0);
 %  G.Block	G.NumGiv	G.On	G.ITI.On	G.ISI.On	G.ITI.Dur	G.ISI.Dur	K.Block	K.NumGiv	K.On	K.ITI.On	K.ISI.On	K.ITI.Dur	K.ISI.Dur	M.Block	M.NumGiv	M.On	M.ITI.On	M.ISI.On	M.ITI.Dur	M.ISI.Dur
 gOn=dsgnFile((dsgnFile(:,2)~=-99),2);
 gDur=dsgnFile((dsgnFile(:,2)~=-99),3);
-gFBOn=dsgnFile((dsgnFile(:,2)~=-99),4)-4; %workaround until bug identified
+gFBOn=dsgnFile((dsgnFile(:,2)~=-99),4)-4; %workaround until bug identified -- bug found, but keeping anyway for convenience
 gFBPM=dsgnFile((dsgnFile(:,2)~=-99),5);
 gITI=dsgnFile((dsgnFile(:,2)~=-99),6);
 gISI=dsgnFile((dsgnFile(:,2)~=-99),7);
@@ -84,7 +84,7 @@ scans{4}=r4Scans;
 
 scanfiles=[scans{1}; scans{2} ;scans{3}; scans{4}];
 
-matlabbatch{1}.spm.stats.fmri_spec.dir = {[dataDir 's' num2str(subj) '/results/4sFB/feedbackPM_choiceDuration/']};
+matlabbatch{1}.spm.stats.fmri_spec.dir = {[dataDir 's' num2str(subj) '/results/FBevent/feedbackPM_choiceDuration/']};
 matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
 matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 2;
 matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 32;
@@ -100,7 +100,9 @@ matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).tmod = 0;
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).name = 'Give Feedback';
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).onset = gFBOn;
 % matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(7,[size(gFBOn),1]);
-matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(4,[size(gFBOn),1]);
+% matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(4,[size(gFBOn),1]);
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(0,[size(gFBOn),1]); %event
+
 
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).tmod = 0;            
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).pmod.name = 'Number of Givers';
@@ -115,7 +117,9 @@ matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).tmod = 0;
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).name = 'Keep Feedback';
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).onset = kFBOn;
 % matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(7,[size(kFBOn),1]);
-matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(4,[size(kFBOn),1]);
+% matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(4,[size(kFBOn),1]);
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(0,[size(kFBOn),1]); %event
+
 
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).tmod = 0;            
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).pmod.name = 'Number of Givers';
@@ -228,4 +232,7 @@ matlabbatch{3}.spm.stats.con.consess{7}.tcon.sessrep = 'repl';
 matlabbatch{3}.spm.stats.con.consess{8}.tcon.name = 'Increasing # of Givers after K';
 matlabbatch{3}.spm.stats.con.consess{8}.tcon.weights = [0 0 0 0 0 1];
 matlabbatch{3}.spm.stats.con.consess{8}.tcon.sessrep = 'repl';
+matlabbatch{3}.spm.stats.con.consess{9}.tcon.name = 'Keep > Give';
+matlabbatch{3}.spm.stats.con.consess{9}.tcon.weights = [-1 0 0 1 0 0];
+matlabbatch{3}.spm.stats.con.consess{9}.tcon.sessrep = 'repl';
 matlabbatch{3}.spm.stats.con.delete = 1;

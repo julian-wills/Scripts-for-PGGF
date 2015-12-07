@@ -47,7 +47,7 @@ for s=1:length(subs)
     runCodes=rRunData(s,2:5)';
     antiCodes=[];
     proCodes=[];
-    if sum(runCodes==[0; 0; 0; 0;])==1; %neglect subjects w/ no variant runs
+    if sum(runCodes==[0; 0; 0; 0;])==4; %neglect subjects w/ no variant runs
     else
         runIdx = find(runCodes); %indices of acceptable runs
         for i=1:(b-1) % con 1 thru max-1
@@ -86,7 +86,7 @@ for s=1:length(subs)
             spm_imcalc([proCon{1};proCon{2};antiCon{1}],[d{s},'/con_PROvANTI.nii'],'((i1+i2)/2)-i3',{0,0,0,16});  
             spm_imcalc([proCon{1};proCon{2};antiCon{1}],[d{s},'/con_ANTIvPRO.nii'],'i3-((i1+i2)/2)',{0,0,0,16});  
        
-        elseif sum(conCode<0) % two Anti, one Pro
+        elseif sum(conCode)<0 % two Anti, one Pro
             proCon{1}=[d{s},'/',f{find(conCode==proCodes(1))}]; %file index that matches first prosocial 
             antiCon{1}=[d{s},'/',f{find(conCode==antiCodes(1))}];
             antiCon{2}=[d{s},'/',f{find(conCode==antiCodes(2))}];
