@@ -5,18 +5,12 @@ clear all
 close all
 % subs = 1;
 % subs = [3:47];
-% subs= [6 7 8 13 14 15 16 17 18 22 25 26 28 30 32 34 35 37 38 39 43 44];
-% subs = [11 12 19 20 21 23 24 29 31 33 41 45 46 47];
+% subs = [1 3:4 6:8 11:26 28:35 37:39 41 43:47]; %invariant subs
 
-subs = [1 3:4 6:8 11:26 28:35 37:39 41 43:47]; %invariant subs
+% subs = [1 4 6:8 11:18 20:26 28:35 37:39 41 43:47]; %full model subs
+subs = [1 3:4 6:8 11:26 28:35 37:39 41 43:47]; %full model subs (+2 more; N=39)
 
-subs = [1 4 6:8 11:18 20:26 28:35 37:39 41 43:47]; %full model subs
-subs = [3 19]; %leftovers
-
-% subs = [20:26 28:35 37:39 41 43:47];
-% subs = [28:35 37:39 41 43:47]; 
-% subs=1;
-% subs = 23; %test subject
+% subs = [3 19]; %leftovers
 spm_jobman('initcfg');
 global subj 
 

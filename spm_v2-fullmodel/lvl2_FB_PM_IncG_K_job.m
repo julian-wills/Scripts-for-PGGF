@@ -5,11 +5,12 @@
 % Purpose: include as many subjects as possible. Only Vet vs. Nonvet Stim.
 % No Donation in model. 
 %-----------------------------------------------------------------------
-matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/IncG_K'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/IncG_K_fix'};
 %%
 %exclude: subjects 2, 5, 9, 10, 11, 27, 36, 40, 42
 
-subs = [1 4 6:8 11:18 20:26 28:35 37:39 41 43:47]; %full model subs
+% subs = [1 4 6:8 11:18 20:26 28:35 37:39 41 43:47]; %full model subs
+subs = [1 3:4 6:8 11:26 28:35 37:39 41 43:47]; %full model subs (+2 more; N=39)
 
 for s=1:length(subs)
     f=[];

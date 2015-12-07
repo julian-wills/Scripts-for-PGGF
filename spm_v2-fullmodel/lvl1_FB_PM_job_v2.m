@@ -84,7 +84,7 @@ scans{4}=r4Scans;
 
 scanfiles=[scans{1}; scans{2} ;scans{3}; scans{4}];
 
-matlabbatch{1}.spm.stats.fmri_spec.dir = {[dataDir 's' num2str(subj) '/results/feedbackPM_choiceDuration/']};
+matlabbatch{1}.spm.stats.fmri_spec.dir = {[dataDir 's' num2str(subj) '/results/4sFB/feedbackPM_choiceDuration/']};
 matlabbatch{1}.spm.stats.fmri_spec.timing.units = 'secs';
 matlabbatch{1}.spm.stats.fmri_spec.timing.RT = 2;
 matlabbatch{1}.spm.stats.fmri_spec.timing.fmri_t = 32;
@@ -99,7 +99,9 @@ matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(1).tmod = 0;
 
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).name = 'Give Feedback';
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).onset = gFBOn;
-matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(7,[size(gFBOn),1]);
+% matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(7,[size(gFBOn),1]);
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).duration = repmat(4,[size(gFBOn),1]);
+
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).tmod = 0;            
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).pmod.name = 'Number of Givers';
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(2).pmod.param = gFBPM;
@@ -112,7 +114,9 @@ matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(3).tmod = 0;
 
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).name = 'Keep Feedback';
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).onset = kFBOn;
-matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(7,[size(kFBOn),1]);
+% matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(7,[size(kFBOn),1]);
+matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).duration = repmat(4,[size(kFBOn),1]);
+
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).tmod = 0;            
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).pmod.name = 'Number of Givers';
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(4).pmod.param = kFBPM;
@@ -132,7 +136,8 @@ if isempty(mOn)==0
     
     matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(7).name = 'Miss Feedback';
     matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(7).onset = mFBOn;
-    matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(7).duration = repmat(7,[size(mFBOn),1]);
+%     matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(7).duration = repmat(7,[size(mFBOn),1]);
+    matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(7).duration = repmat(4,[size(mFBOn),1]);
     matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(7).tmod = 0;             
 
     matlabbatch{1}.spm.stats.fmri_spec.sess(1).cond(5).name = 'Cue';
@@ -168,14 +173,14 @@ matlabbatch{1}.spm.stats.fmri_spec.sess.regress(3).name = 'Run 2 Mean';
 matlabbatch{1}.spm.stats.fmri_spec.sess.regress(3).val = o(2,:);
 matlabbatch{1}.spm.stats.fmri_spec.sess.regress(4).name = 'Run 2 Drift';
 matlabbatch{1}.spm.stats.fmri_spec.sess.regress(4).val = d(2,:);  
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(3).name = 'Run 3 Mean';
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(3).val = o(3,:);
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(4).name = 'Run 3 Drift';
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(4).val = d(3,:);  
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(3).name = 'Run 4 Mean';
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(3).val = o(4,:);
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(4).name = 'Run 4 Drift';
-matlabbatch{1}.spm.stats.fmri_spec.sess.regress(4).val = d(4,:);      
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(5).name = 'Run 3 Mean';
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(5).val = o(3,:);
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(6).name = 'Run 3 Drift';
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(6).val = d(3,:);  
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(7).name = 'Run 4 Mean';
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(7).val = o(4,:);
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(8).name = 'Run 4 Drift';
+matlabbatch{1}.spm.stats.fmri_spec.sess.regress(8).val = d(4,:);      
 matlabbatch{1}.spm.stats.fmri_spec.sess.hpf = 128;
 
 

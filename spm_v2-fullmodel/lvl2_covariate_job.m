@@ -3,8 +3,8 @@
 %-----------------------------------------------------------------------
 %%
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/IncG_G/PrefIncG_G'};
-matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/IncG_K/PrefIncG_K'};
-% matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/G_v_K/Cooperation'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/newDefault/ChoiceDur_FB_PM/IncG_K_fix/PrefIncG_K'};
+% matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/G_v_K_fix/Cooperation'};
 % matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/choiceDur/Pro_v_Anti/NormSens'};
 
 subs = [1 3:4 6:8 11:26 28:35 37:39 41 43:47]; %full model subs (+2 more; N=39)
@@ -88,14 +88,12 @@ matlabbatch{3}.spm.stats.con.spmmat(1) = cfg_dep('Model estimation: SPM.mat File
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Give Inc G x Preference for Inc G when G';
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Keep Inc G x Preference for Inc K when K';
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'G>K x Cooperative';
-
 % matlabbatch{3}.spm.stats.con.consess{1}.tcon.name = 'Norm Consistent Choice x Norm Sensitivity';
 
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.weights = [0 1];
 matlabbatch{3}.spm.stats.con.consess{1}.tcon.sessrep = 'repl';
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Give Inc G x Preference for Inc K when G';
 matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Keep Inc G x Preference for Inc G when K';
-
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'G>K x Selfish';
 % matlabbatch{3}.spm.stats.con.consess{2}.tcon.name = 'Norm Consistent Choice x Norm Insensitivity';
 

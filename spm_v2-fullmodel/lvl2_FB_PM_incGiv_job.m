@@ -5,7 +5,7 @@
 % Purpose: include as many subjects as possible. Only Vet vs. Nonvet Stim.
 % No Donation in model. 
 %-----------------------------------------------------------------------
-matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/ChoiceDur_FB_PM/IncGivers'};
+matlabbatch{1}.spm.stats.factorial_design.dir = {'/Users/Julian/GDrive/PGGfMRI/Neuro/Level2Results/wholeMaskL1/newDefault/ChoiceDur_FB_PM/IncGivers'};
 %%
 %exclude: subjects 2, 5, 9, 10, 11, 27, 36, 40, 42
 
@@ -16,7 +16,7 @@ for s=1:length(subs)
     f=[];
     a=[];
     b=0;
-    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/feedbackPM_choiceDuration'];
+    d{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/newDefault/feedbackPM_choiceDuration'];
     a=dir(d{s});
     for i=1:length(a)
         if strfind(a(i).name,'con_0004')==1 % 1=Give > Keep; 4=Increasing Givers
@@ -24,7 +24,7 @@ for s=1:length(subs)
             f{b}=a(i).name;
         end
     end
-    c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/feedbackPM_choiceDuration/',f{b},',1'];
+    c{s}=['/Users/Julian/GDrive/PGGfMRI_preproc/s',num2str(subs(s)),'/results/newDefault/feedbackPM_choiceDuration/',f{b},',1'];
 %     strfind(a(:).name,'spm')
 end
 c=c';
